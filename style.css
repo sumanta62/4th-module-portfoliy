@@ -1,0 +1,81 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+img{
+    width: 100%;
+}
+p{
+    color: gray;
+}
+.home-section{
+    background-image: url('img/top-banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 150px;
+
+}
+.home-title{
+    width: 40%;
+    margin-left: 7%;
+}
+.home-title span{
+    color: orange ;
+}
+.hire-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.Dream-big{
+    background-image: url('img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    padding-bottom: 150px;
+}
+.dream-title{
+    width: 40%;
+    margin-left: 7%;
+}
+.Experiences-section{
+    background-image: url('img/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 150px;
+}
+.exper{
+    display: flex;
+}
+.Developer{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 5px 7px 40px grey;   
+    padding-left: 30px;
+    border-radius: 5px;
+    height: 400px;
+    
+}
+.Developer h3{
+   color: orange;
+}
+#full-stack{
+    border-left: 5px solid tomato;
+}
+#baby-web{
+    border-left: 5px solid blue;
+}
+.footer{
+    text-align: center;
+}
